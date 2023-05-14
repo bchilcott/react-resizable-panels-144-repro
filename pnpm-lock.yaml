@@ -11,6 +11,7 @@ specifiers:
   postcss: 8.4.23
   react: 18.2.0
   react-dom: 18.2.0
+  react-resizable-panels: ^0.0.43
   tailwindcss: 3.3.2
   typescript: 5.0.4
 
@@ -25,6 +26,7 @@ dependencies:
   postcss: 8.4.23
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-resizable-panels: 0.0.43_biqbaboplfbrettd7655fr4n2y
   tailwindcss: 3.3.2
   typescript: 5.0.4
 
@@ -2216,6 +2218,16 @@ packages:
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+    dev: false
+
+  /react-resizable-panels/0.0.43_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-AUihA+8aaeavHDy3rob+asPXAiDRYEVns6Bi6a9Wyb3s/HzVNnCvRUcHLQjoD96Y3e8ITX2Dp4wMUgZULbFOUQ==}
+    peerDependencies:
+      react: ^16.14.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react/18.2.0:
